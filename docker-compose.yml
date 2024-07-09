@@ -33,6 +33,15 @@ services:
     networks:
       - library-network
 
+  frontend-service:
+    build: ./frontend-service
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api-gateway
+    networks:
+      - library-network
+      
 networks:
   library-network:
     driver: bridge
