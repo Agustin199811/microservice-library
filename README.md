@@ -37,21 +37,21 @@ This project is currently in development and is being worked on for version 1.0.
 
 The Books REST API exposes the following endpoints:
 
-- `GET /books`: Retrieve all books.
-- `GET /books/{id}`: Retrieve a specific book by ID.
-- `POST /books`: Create a new book.
+- `GET /library/books`: Retrieve all books.
+- `GET /library/books/{id}`: Retrieve a specific book by ID.
+- `POST /library/books`: Create a new book.
 
 
 The Member REST API exposes the following endpoints:
 
-- `GET /members`: Retrieve all members.
-- `POST /members`: Create a new member.
+- `GET /library/members`: Retrieve all members.
+- `POST /library/members`: Create a new member.
 
 The Loan REST API exposes the following endpoints:
 
-- `GET /loans`: Retrieve all loans record.
-- `POST /loans`: Register a new loans.
-- `PUT /loans/{id}/return`: Mark a loan as returned.
+- `GET /library/loans`: Retrieve all loans record.
+- `POST /library/loans`: Register a new loans.
+- `PUT /library/loans/{id}/return`: Mark a loan as returned.
 
 You can use tools such as Postman or cURL to send HTTP requests to these endpoints.
 

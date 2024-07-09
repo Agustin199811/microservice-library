@@ -15,7 +15,7 @@ import com.uce.books.Model.Book;
 import com.uce.books.Service.BookService;
 
 @RestController
-@RequestMapping("/books")
+@RequestMapping("/library/books")
 public class BookController {
     @Autowired
     private BookService bookService;

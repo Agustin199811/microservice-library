@@ -15,7 +15,7 @@ import com.uce.member.Model.Member;
 import com.uce.member.Service.MemberService;
 
 @RestController
-@RequestMapping("/members")
+@RequestMapping("/library/members")
 public class MemberController {
 
     @Autowired

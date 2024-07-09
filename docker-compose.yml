@@ -22,6 +22,17 @@ services:
     networks:
       - library-network
 
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - books-service
+      - loan-service
+      - member-service
+    networks:
+      - library-network
+
 networks:
   library-network:
     driver: bridge

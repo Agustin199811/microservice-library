@@ -17,7 +17,7 @@ import com.uce.loan.Model.Loan;
 import com.uce.loan.Service.LoanService;
 
 @RestController
-@RequestMapping("/loans")
+@RequestMapping("/library/loans")
 public class LoanController {
 
     @Autowired
