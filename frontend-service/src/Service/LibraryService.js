@@ -1,5 +1,5 @@
 import axios from 'axios'
-const library_service="http://3.142.247.16:8080/library";
+const library_service="http://18.221.127.76:8080/library";
 
 class LibraryService {
     getAllBooks(){
