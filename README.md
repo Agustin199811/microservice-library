@@ -35,19 +35,19 @@ This project is currently in development and is being worked on for version 1.0.
 ## Usage
 
 
-The Books REST API exposes the following endpoints:
+The Books REST API exposes Microservice 1 the following endpoints:
 
 - `GET /library/books`: Retrieve all books.
 - `GET /library/books/{id}`: Retrieve a specific book by ID.
 - `POST /library/books`: Create a new book.
 
 
-The Member REST API exposes the following endpoints:
+The Member REST API exposes  Microservice 2 the following endpoints:
 
 - `GET /library/members`: Retrieve all members.
 - `POST /library/members`: Create a new member.
 
-The Loan REST API exposes the following endpoints:
+The Loan REST API exposes Microservice 3 the following endpoints:
 
 - `GET /library/loans`: Retrieve all loans record.
 - `POST /library/loans`: Register a new loans.
