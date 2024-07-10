@@ -14,4 +14,3 @@ class LibraryService {
 
 const libraryServiceInstance = new LibraryService();
 export default libraryServiceInstance;
-
